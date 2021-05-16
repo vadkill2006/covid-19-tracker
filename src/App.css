@@ -1,0 +1,53 @@
+body{
+  background-color: #f6f5f8;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 35px 25px;
+}
+
+.app-left{
+  flex: 0.9;
+  margin-bottom: 20px;
+}
+
+.app-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.app-header .MuiInput-underline{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats > div{
+  padding: 10px;
+  min-width: 200px;
+  text-align: left;
+}
+
+.stats > div h3{
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.app-right{
+  padding: 10px;
+}
+
+@media (max-width: 900px){
+  .App{
+    flex-direction: column;
+  }
+}
